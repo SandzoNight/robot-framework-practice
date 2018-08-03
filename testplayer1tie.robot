@@ -68,6 +68,9 @@ Player 1 (X) คลิกช่อง R3,C1
   Wait Until Element Contains    id=tieScore    1
 ปิดหน้าเว็บ
   Close Browser
+Player 1 (X) คลิกช่อง R1,C3
+  Click Element    id=R1_C3
+  Wait Until Element Contains    id=R1_C3    X
 Player 2 (O) คลิกช่อง R2,C3
   Click Element    id=R2_C3
   Wait Until Element Contains    id=R2_C3    O
